@@ -8,5 +8,5 @@ http.createServer(function(req, res){
     res.writeHead(200, {'Content-Type':'Text/HTML'})
     // res.write("Fuck!!!! It WORKED!!!")
     // res.end()
-    res.end("Fuck!!!! It WORKED!!!")
+    res.end("Damn!!!! It WORKED!!!")
 }).listen(8080)
