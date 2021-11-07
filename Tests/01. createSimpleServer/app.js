@@ -9,4 +9,4 @@ http.createServer(function(req, res){
     // res.write("Fuck!!!! It WORKED!!!")
     // res.end()
     res.end("Damn!!!! It WORKED!!!")
-}).listen(8080)
+}).listen(8080, () => console.log('Server is running...'))
